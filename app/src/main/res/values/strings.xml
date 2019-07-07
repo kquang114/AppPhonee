@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">AppPhonee</string>
+
+    <string name="intro_1">Fast and Safe</string>
+    <string name="title_activity_thong_tin">Map</string>
+    <string name="title_activity_dang_nhap">Đăng Nhập</string>
+    <string name="title_activity_dang_ki">Đăng Kí</string>
+    <string name="title_activity_thong_tin_tai_khoan">Thông Tin Tài Khoản</string>
+    <string name="title_activity_chinh_sua_tttk">Chỉnh Sửa Thông Tin Tài Khoản</string>
+    <string name="title_recyclerview_san_pham_moi_nhat">Sản Phẩm Mới Nhất</string>
+    <string name="text_view_all">Xem thêm ></string>
+    <string name="title_recyclerview_iphone">Iphone</string>
+    <string name="title_recyclerview_oppo">Oppo</string>
+    <string name="title_recyclerview_samsung">SamSung</string>
+    <string name="title_recyclerview_xiaomi">Xiaomi</string>
+    <string name="kiem_tra_ket_noi">Bạn hãy kiểm tra kết nối Internet</string>
+    <string name="giasp">%s VNĐ</string>
+    <string name="het_du_lieu_hien_thi">Đã hết sản phẩm để hiện thị</string>
+    <string name="gio_hang_trong">Giỏ hàng của bạn đang trống</string>
+    <string name="da_them_vao_gio_hang">Sản phẩm đã được thêm vào giỏ hàng !!!</string>
+    <string name="TK_MK_trong">Tài Khoản và Mật Khẩu không được để trống</string>
+    <string name="dang_nhap_thanh_cong">Đăng Nhập Thành Công</string>
+    <string name="dang_ki_thanh_cong">Đăng Kí Thành Công</string>
+    <string name="sai_tai_khoan_hoac_mat_khau">Tài Khoản hoặc Mật Khẩu không đúng</string>
+    <string name="mat_khau_khong_trung">Mật Khẩu không trùng khớp</string>
+    <string name="tai_khoan_da_ton_tai">Tài Khoản đã tồn tại</string>
+    <string name="ho_ten">Họ Tên: </string>
+    <string name="dia_chi">Địa Chỉ: </string>
+    <string name="sdt">SĐT: </string>
+    <string name="hint_ho_ten">Nhập họ tên khách hàng</string>
+    <string name="hint_dia_chi">Nhập địa chỉ giao hàng</string>
+    <string name="hint_sdt">Nhập số điện thoại</string>
+    <string name="button_text_xac_nhan">Xác nhận</string>
+    <string name="thong_tin_dang_nhap">Thông tin đăng nhập</string>
+    <string name="tai_khoan">Tài Khoản:</string>
+    <string name="mat_khau">Mật Khẩu:</string>
+    <string name="thay_doi_mat_khau"><![CDATA[Thay đổi mật khẩu >]]></string>
+    <string name="thong_tin_giao_nhan_hang">Thông tin giao nhận hàng</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="price_with_currency">₹%.2f</string>
+    <string name="price_with_currency_string">₹%s</string>
+    <string name="total_price_with_currency_string">Total: ₹%s</string>
+    <string name="lbl_view_cart">VIEW CART</string>
+    <string name="cart_info_bar_data">%d Items | ₹%s</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="title_activity_transactions">Transactions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_checkout">CHECKOUT (%s)</string>
+    <string name="lbl_item_price_quantity">%s x %d</string>
+    <string name="lbl_your_cart">Your Cart</string>
+    <string name="title_activity_paytm_activity">Order Status</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="login">Login</string>
+    <string name="msg_enter_credentials">Enter email and username!</string>
+    <string name="logout">Logout</string>
+    <string name="hint_name">Fullname</string>
+    <string name="register">Register</string>
+    <string name="msg_fill_the_form">Please fill the form!</string>
+    <string name="lbl_create_account">Don\'t have an account? Sign Up here.</string>
+    <string name="lbl_existing_account">Already have an account? Login here</string>
+    <string name="msg_unknown">Unknown error occurred! Please try again. Check Android Studio\'s LogCat for detailed error report.</string>
+    <string name="error">Error</string>
+    <string name="msg_preparing_order">Preparing your order</string>
+    <string name="msg_fetching_checksum">Getting checksum value from the server</string>
+    <string name="msg_redirecting_to_paytm">Redirecting to PayTM gateway</string>
+    <string name="msg_verifying_status">Verifying transaction status on server</string>
+    <string name="msg_order_placed_successfully">Your order placed successfully!</string>
+    <string name="thank_you">THANK YOU</string>
+    <string name="btn_check_order">CHECK ORDERS</string>
+    <string name="title_preparing_order">Preparing Order</string>
+    <string name="msg_order_placed_failed">Order couldn\'t be placed. Plase contact support.</string>
+    <string name="order_failed">ORDER FAILED</string>
+    <string name="activity_title_orders">My Orders</string>
+    <string name="order_placed">Order Placed</string>
+    <string name="order_id">Order Id #%d</string>
+    <string name="transaction_failed">Transaction Failed</string>
+    <string name="transactions">NO DATA</string>
+
+    <string name="title_shop">Sản Phẩm</string>
+    <string name="title_find">Tìm Kiếm</string>
+    <string name="title_discount">Khuyến Mãi</string>
+    <string name="title_notice">Thông Báo</string>
+</resources>

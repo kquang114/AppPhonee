@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.quang.appphonee.ThongTinKhachHangActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/bg_input_form"
+        app:title="Thông Tin Khách Hàng">
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:textSize="20sp"
+            android:text="          Cung cấp thông tin giao nhận hàng cho chúng tôi để việc giao nhận hàng diễn ra một cách chính xác."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorTextView"
+            android:text="Thông tin giao nhận hàng mà khách hàng đã cung cấp trước đây:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvHoTen"
+            android:textSize="20sp"
+            android:textColor="@color/colorTextView"
+            android:layout_marginTop="16dp"
+            android:text="@string/ho_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvDiaChi"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:text="@string/dia_chi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvSDT"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="16dp"
+            android:text="@string/sdt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSuDungTTnay"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:text="Thanh toan paypal"
+            android:textColor="@color/colorTextView"
+            android:textSize="20sp"
+            android:background="@drawable/bg_input_layout_form"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnthanhtoantainha"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Thanh toan tai nha"
+            android:textColor="@color/colorTextView"
+            android:textSize="20sp"
+            android:background="@drawable/bg_input_layout_form"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSuDungTTkhac"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Sử dụng thông tin khác"
+            android:textColor="@color/colorTextView"
+            android:textSize="20sp"
+            android:background="@drawable/bg_input_layout_form"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

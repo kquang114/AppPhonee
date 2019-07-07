@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.quang.appphonee.DatCauHoiActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarDatCauHoi"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:title="Đặt Câu Hỏi"
+        android:background="@color/colorToolbar">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tất cả câu hỏi mà bạn đặt cho chúng tôi sẽ được lưu trữ trong Hộp thư trong Trung tâm trợ giúp."
+            android:textColor="@color/colorTextView"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorTextView"
+            android:text="Câu hỏi: "
+            android:layout_marginTop="16dp"/>
+        <EditText
+            android:id="@+id/editCauHoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập câu hỏi"
+            android:layout_marginTop="8dp" />
+        <Button
+            android:id="@+id/btnGui"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="gửi"
+            android:textColor="@color/colorButtonText"
+            android:background="@drawable/button_border"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:textSize="18sp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <gradient
+        android:gradientRadius="800dp"
+        android:startColor="@color/bg_input_form"
+        android:endColor="@color/colorButtonText"
+        android:type="radial"
+
+    />
+
+</shape>
